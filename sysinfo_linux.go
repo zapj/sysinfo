@@ -14,7 +14,6 @@ func GetSysInfo() *SysInfo {
 	}
 	si.OSName = runtime.GOOS
 	si.Arch = runtime.GOARCH
-	si.MaxProcs = runtime.GOMAXPROCS(0)
 	si.NumCPU = runtime.NumCPU()
 	return si
 }

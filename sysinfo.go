@@ -4,7 +4,8 @@ type SysInfo struct {
 	Hostname  string
 	Arch      string
 	OSName    string
+	OSVendor  string
 	OSVersion string
-	MaxProcs  int
+	OSRelease string
 	NumCPU    int
 }
